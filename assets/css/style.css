@@ -5,24 +5,30 @@
 
 /*colour palette*/
 :root {
-  --primary: ;
-  --secondary: ;
-  --tertiary: ;
-  --dark: ;
-  --light: ;
+  --primary: #4682b4;
+  --secondary: #ca96a5;
+  --tertiary: #e7c21f;
+  --bglight: #e9e9e9;
+}
+
+body {
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  background-color:var(--bglight);
 }
 
 /*header style*/
 header {
-  padding: 10px 20px 10px 0;
+  padding: 5px 20px 5px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:;
+  background-color:var(--secondary);
 }
 
 header h1 {
   font-size: 5vw;
+  color:var(--primary);
+  margin: 15px 0 15px 25px;
 }
 
 header a {
@@ -31,6 +37,8 @@ header a {
 
 header nav {
   margin: 10px 0;
+  display: flex;
+  flex-flow: wrap row;
 }
 
 header nav ul {
@@ -45,6 +53,11 @@ header nav ul li a {
   margin: 0 30px 0 10px;
   font-weight: bolder;
   font-size: 24px;
+  color:var(--primary)
+}
+
+nav a:hover {
+  border-bottom: 5px solid var(--tertiary)
 }
 
 /*hero style*/
@@ -54,11 +67,50 @@ header nav ul li a {
   display: flex;
 }
 
-/*about sytle*/
+/*profile style*/
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-flow: wrap row-reverse;
+}
 
+/*about style*/
+main {
+  background-color: var(--bglight);
+  border: 2px dashed var(--secondary);
+  padding: 5px var(--bglight);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+main h3 {
+  font-size: 22px;
+  color: var(--secondary);
+  padding-bottom: 8px;
+  margin-left: 20px;
+}
+
+main p {
+  color: var(--secondary);
+  margin: 0 40px 20px 40px;
+  line-height: 1.5;
+}
 
 /*profile style*/
+aside {
+  justify-content: center;
+  padding: 10px;
+  border: 5px solid var(--primary);
+  width: 220px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
 
+aside img {
+  justify-content: center;
+  max-width: 100%;
+}
 
 /*works style*/
 
@@ -68,5 +120,13 @@ header nav ul li a {
 
 /*footer style*/
 footer {
-
+  color: var(--tertiary);
+  text-align: center;
 }
+
+
+/*screen size <768*/
+
+/*screen size <768*/
+
+/*screen size <425*/
