@@ -1,23 +1,63 @@
-html {
+* {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 /*colour palette*/
 :root {
-  --primary: #2e4a62;
-  
+  --primary: ;
+  --secondary: ;
+  --tertiary: ;
+  --dark: ;
+  --light: ;
 }
 
-/*header style*?
+/*header style*/
+header {
+  padding: 10px 20px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:;
+}
 
+header h1 {
+  font-size: 5vw;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav {
+  margin: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li a {
+  margin: 0 30px 0 10px;
+  font-weight: bolder;
+  font-size: 24px;
+}
 
 /*hero style*/
+.hero {
+  background:;
+  background-size: cover;
+  display: flex;
+}
+
+/*about sytle*/
 
 
-/*about sytle*?
-
-
-/*profile style*?
+/*profile style*/
 
 
 /*works style*/
@@ -27,3 +67,6 @@ html {
 
 
 /*footer style*/
+footer {
+
+}
