@@ -62,10 +62,11 @@ nav a:hover {
 
 /*hero style*/
 .hero {
-  background:;
   background-size: cover;
   display: flex;
-}
+  padding: 5px;
+  margin-bottom: 25px;
+  background-color: #4682b4;}
 
 /*profile style*/
 .profile {
@@ -113,10 +114,69 @@ aside img {
 }
 
 /*works style*/
-
+.work-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 /*contact style*/
+.contact {
+  background-color:var(--secondary);
+  padding: 5px 30px 10px 30px;
+}
 
+.contact h2 {
+  text-align: center;
+  color: var(--tertiary);
+  font-weight: bolder;
+  border-bottom: 2px solid var(--tertiary);
+  font-size: 28px;
+  padding: 10px;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5%;
+}
+
+.contact-form {
+  display: block;
+}
+
+.form-input {
+  border: 1px solid var(--tertiary);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--primary);
+  width: 100%;
+  margin-bottom: 5px;
+  margin: 5%;
+}
+
+.contact-form label {
+  margin: 0 5px;
+}
+
+.contact-form button {
+  background-color: var(--primary);
+  color: var(--tertiary);
+  padding: 5px 20px;
+  font-size: 16px;
+  border: none;
+  margin-top: 5px;
+  align-items: center;
+}
 
 /*footer style*/
 footer {
