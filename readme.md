@@ -18,7 +18,7 @@ The website is designed to feature the portfolio of Andaleeb Farooq. includes li
 https://cerafinn.github.io/
 
 ## Screenshot
-![Portfolio]()
+![Portfolio](./assets/images/cerafinn.github.io.png)
 
 ## Contribution
 Created with ❤️ by Andaleeb Farooq

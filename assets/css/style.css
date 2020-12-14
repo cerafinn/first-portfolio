@@ -308,8 +308,8 @@ footer {
   }
 }
 
-/*screen size <415*/
-@media screen and (max-width: 415px) {
+/*screen size <500*/
+@media screen and (max-width: 500px) {
   header nav ul {
     display: inline-block;
   }
