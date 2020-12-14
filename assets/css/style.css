@@ -307,3 +307,10 @@ footer {
     font-size: 5vw;
   }
 }
+
+/*screen size <415*/
+@media screen and (max-width: 415px) {
+  header nav ul {
+    display: inline-block;
+  }
+}
