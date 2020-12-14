@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Andaleeb Farooq - Portfolio</title>
 </head>
@@ -14,13 +14,13 @@
   <!--navigation-->
   <header>
     <h1>Andaleeb Farooq</h1>
-      <nav>
-        <ul>
-          <li><a href="#about-me">About</a></li>
-          <li><a href="#deployed-work">Work</a></li>
-          <li><a href="#contact-info">Contact</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work-collection">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
 <!--hero/jumbotron-->
@@ -33,12 +33,12 @@
 <div class="profile" id="profile">
   <!--profile picture-->
   <aside id="profile-img">
-    <img src="assets/images/profile placeholder.png" alt="Andaleeb Farooq">
+    <img src="assets/images/profile.jpg" alt="Andaleeb Farooq">
   </aside>
 
   <!--about me-->
   <main id="about">
-      <h3>About</h3>
+      <h2>About</h2>
       <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo hic, tenetur officiis architecto iusto reprehenderit repellendus magnam expedita beatae molestias blanditiis minus voluptatum saepe alias rerum temporibus voluptate, fugiat provident!</p>
 
@@ -49,42 +49,46 @@
 
 <!--works-->
   <section class="work-section" id="work-collection">
-    <a href="" class="first-project">
-      <img src="assets/images/first project.png" alt="Run Buddy">
-      <h3>Run Buddy</h3>
-      <p>HTML/CSS</p>
-    </a>
+    <h2>Work</h2>
+    <div class="collection-grid">
+      <a href="https://cerafinn.github.io/run-buddy/" class="project run-buddy">
+        <div>
+          <h3>Run Buddy</h3>
+          <p>HTML/CSS</p>
+        </div>
+      </a>
 
-    <a href="" class="">
-      <img src="assets/images/project.png" alt="">
-    </a>
+      <a href="https://cerafinn.github.io/Horiseon/" class="project horiseon">
+        <div>
+          <h3>Horiseon</h3>
+          <p>Code refactor</p>
+        </div>
+      </a>
 
-    <a href="" class="">
-      <img src="assets/images/project.png" alt="">
-    </a>
+      <a href="#" class="project coming-soon">
+        <div>
+          <h3>Coming Soon</h3>
+        </div>
+      </a>
 
-    <a href="" class="">
-      <img src="assets/images/project.png" alt="">
-    </a>
+      <a href="#" class="project coming-soon">
+        <div>
+          <h3>Coming Soon</h3>
+        </div>
+      </a>
 
-    <a href="" class="">
-      <img src="assets/images/project.png" alt="">
-    </a>
+      <a href="#" class="project coming-soon">
+        <div>
+          <h3>Coming Soon</h3>
+        </div>
+      </a>
+    </div>
   </section>
 
 <!--contact information-->
   <section class="contact" id="contact">
       <h2>Contact:</h2>
     <div class="contact-content">
-      <div class="contact-info">
-        <ul>
-          <li><a href="">Phone</a></li>
-          <li><a href="">Email</a></li>
-          <li><a href="">GitHub</a></li>
-          <li><a href="">LinkedIn</a></li>
-        </ul>
-      </div>
-
       <div class="contact-form">
         <form action="mailto:andaleeb.farooq@gmail.com">
           <label for="contact name">Name:</label> </br>
@@ -98,7 +102,16 @@
         </form>
         <button onclick="location.href='mailto:andaleeb.farooq@gmail.com'">Send</button>
       </div>
-  </div>
+
+      <div class="contact-info">
+        <ul>
+          <li><a href="tel:999-999-9999">Phone</a></li>
+          <li><a href="mailto:andaleeb.farooq@gmail.com">Email</a></li>
+          <li><a href="https://github.com/cerafinn">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/andaleebfarooq/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <footer>Andaleeb Farooq &copy; 2020</footer>

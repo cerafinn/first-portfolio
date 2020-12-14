@@ -5,14 +5,14 @@
 
 /*colour palette*/
 :root {
-  --primary: #4682b4;
-  --secondary: #ca96a5;
+  --primary: #8e3440;
+  --secondary: #4682b4;
   --tertiary: #e7c21f;
   --bglight: #e9e9e9;
 }
 
 body {
-  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-family: Libre Baskerville, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color:var(--bglight);
 }
 
@@ -27,8 +27,12 @@ header {
 
 header h1 {
   font-size: 5vw;
-  color:var(--primary);
-  margin: 15px 0 15px 25px;
+  color: var(--primary);
+  margin: 30px 40px 15px 40px;
+  line-height: 1;
+  font-weight: bold;
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
 }
 
 header a {
@@ -85,8 +89,8 @@ main {
   margin-bottom: 20px;
 }
 
-main h3 {
-  font-size: 22px;
+main h2 {
+  font-size: 3vw;
   color: var(--secondary);
   padding-bottom: 8px;
   margin-left: 20px;
@@ -118,8 +122,67 @@ aside img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 20px 40px 20px 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.work-section h2 {
+  flex: 0 15%;
+  font-size: 3vw;
+  text-align: center;
+  border-right: 4px solid var(--primary);
+  color: var(--primary);
+}
+
+.run-buddy {
+  background-image: url("../images/cerafinn.github.io_run-buddy.png");
+}
+
+.horiseon {
+  background-image: url("../images/cerafinn.github.io_Horiseon.png");
+}
+
+.coming-soon {
+  background-image: url("../images/project-placeholder.jpg")
+}
+
+.collection-grid {
+  display: inline-grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(150px, 1fr);
+  grid-auto-flow: row;
+  width: 80%;
+}
+
+.project {
+  border: 2px dotted var(--tertiary);
+  display: flex;
+  align-items: flex-end;
+  min-height: 150px;
+  grid-column: span 1;
+  grid-row: span 1;
+  text-decoration: none;
+  font-size: 1vw;
+  background-size: 200%;
+  background-color: var(--secondary);
+}
+
+.project:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.project div {
+  background-color: var(--secondary);
+  padding: 5px 25px;
+  color: var(--tertiary);
+  text-decoration: none;
+}
+
 
 /*contact style*/
 .contact {
@@ -141,12 +204,19 @@ aside img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+  flex-direction: row-reverse;
 }
 
 .contact-info {
   display: flex;
   flex-wrap: wrap;
   margin: 0 5%;
+}
+
+.contact-info ul li a {
+  color: var(--bglight);
+  text-decoration: none;
+  line-height: 1.5;
 }
 
 .contact-form {
@@ -166,6 +236,7 @@ aside img {
 
 .contact-form label {
   margin: 0 5px;
+  color: var(--bglight);
 }
 
 .contact-form button {
@@ -184,9 +255,55 @@ footer {
   text-align: center;
 }
 
+/*screen size <900*/
+@media screen and (max-width: 900px) {
+  header {
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 15px 0;
+    display: block;
+  }
+
+  header h1 {
+    font-size: 5vw;
+    padding: 20px;
+  }
+
+  header nav {
+    font-size: 0.75vw;
+  justify-content: center;
+  }
+}
 
 /*screen size <768*/
+@media screen and (max-width: 768px) {
+  main h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
 
-/*screen size <768*/
+  .project, .project:first-child {
+    grid-column: 1 / -1;
+  }
 
-/*screen size <425*/
+  .work-section > h2,
+  .work-section > div {
+    flex: 0 0 100%;
+  }
+
+  .work-section h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    font-size: 5vw;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collection-grid {
+    grid-auto-rows: minmax(200px, 1fr);
+  }
+
+  .contact h2 {
+    font-size: 5vw;
+  }
+}
