@@ -148,6 +148,10 @@ aside img {
   background-image: url("../images/project-placeholder.jpg")
 }
 
+.password-generator {
+  background-image: url("../images/cerafinn.github.io_password-generator.png");
+}
+
 .collection-grid {
   display: inline-grid;
   column-gap: 10px;
