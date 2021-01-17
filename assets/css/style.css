@@ -194,19 +194,19 @@ aside img {
 
 .project div {
   background-color: var(--secondary);
-  padding: 5px 25px;
+  padding: 5px;
   color: var(--tertiary);
   text-decoration: none;
 }
 
 .project h3 {
   font-size: 20px;
-  margin: 15px;
+  margin: 5px 15px;
 }
 
 .project p {
   font-size: 15px;
-  margin: 15px;
+  margin: 5px 15px;
 }
 
 /*contact style*/
