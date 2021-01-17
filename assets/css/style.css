@@ -148,6 +148,18 @@ aside img {
   background-image: url("../images/cerafinn.github.io_password-generator.png");
 }
 
+.robot-gladiators {
+  background-image: url("../images/robot-gladiators.png");
+}
+
+.taskinator {
+  background-image: url("../images/taskinator.png");
+}
+
+.day-scheduler {
+  background-image: url("../images/day-scheduler.png");
+}
+
 .coming-soon {
   background-image: url("../images/project-placeholder.jpg");
 }
