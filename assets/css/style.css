@@ -164,6 +164,10 @@ aside img {
   background-image: url("../images/covid-dashboard-application.png");
 }
 
+.reward-bank {
+  background-image: url("../images/rocky-dawn-18669.herokuapp.com_dashboard_.png");
+}
+
 .day-scheduler {
   background-image: url("../images/day-scheduler.png");
 }
@@ -195,7 +199,7 @@ aside img {
   background-color: var(--secondary);
 }
 
-.project:first-child {
+.project:first-child, .project:last-child {
   grid-column: span 2;
   grid-row: span 2;
 }
@@ -350,8 +354,3 @@ footer {
 }
 
 /*screen size <500*/
-@media screen and (max-width: 500px) {
-  header nav ul {
-    display: inline-block;
-  }
-}
