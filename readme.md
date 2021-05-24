@@ -11,7 +11,7 @@ Table of Contents |
 [Usage](#Usage)
 [Technologies](#Technologies)
 [Screenshots](#Screenshots)
-[Contributing](#Contributing)
+[Author](#Author)
 [Questions](#Questions)
 
 <br />
