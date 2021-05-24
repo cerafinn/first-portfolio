@@ -1,24 +1,58 @@
 # Portfolio
-Created a portfolio that links to deployed work
+
+## Description
+A portfolio with deployed works included.
+
+
+
+Table of Contents |
+-------------------|
+[Installation](#Installation)
+[Usage](#Usage)
+[Technologies](#Technologies)
+[Screenshots](#Screenshots)
+[Contributing](#Contributing)
+[Questions](#Questions)
 
 <br />
 
-## General Information
-The website is designed to feature the portfolio of Andaleeb Farooq. includes links to deployed work as well as contact information.
+## Installation
+
+In order to run the project locally, ensure that dependencies are installed by running:
+
+none
 
 <br />
 
-## Build With
+## Usage
+
+The project is a basic portfolio created with HTML and CSS. The site includes a short bio, an picture along with a display of deployed works.
+
+You can find the deployed link and the repository link below:
+
+Deployed Link: [Deployed Link](https://cerafinn.github.io/portfolio)
+
+Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
+
+<br />
+
+## Technologies
+
 * HTML
 * CSS
 
 <br />
 
-## Website
-https://cerafinn.github.io/
-
 ## Screenshot
 ![Portfolio](./assets/images/cerafinn.github.io.png)
 
-## Contribution
+<br />
+
+## Author
+
 Created with ❤️ by Andaleeb Farooq
+
+## Questions
+
+If you have any questions or issues, feel free to reach out at: andaleeb.farooq@gmail.com.
+You can also find more of my work on Github at [github link](https://github.com/cerafinn)
