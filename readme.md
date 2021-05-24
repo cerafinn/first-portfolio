@@ -4,7 +4,6 @@
 A portfolio with deployed works included.
 
 
-
 Table of Contents |
 -------------------|
 [Installation](#Installation)
@@ -13,14 +12,6 @@ Table of Contents |
 [Screenshots](#Screenshots)
 [Author](#Author)
 [Questions](#Questions)
-
-<br />
-
-## Installation
-
-In order to run the project locally, ensure that dependencies are installed by running:
-
-none
 
 <br />
 
@@ -51,6 +42,8 @@ Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
 ## Author
 
 Created with ❤️ by Andaleeb Farooq
+
+<br />
 
 ## Questions
 
