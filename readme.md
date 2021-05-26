@@ -1,12 +1,12 @@
-# Portfolio
+# portfolio
 
 ## Description
-A portfolio with deployed works included.
+A portfolio of work completed by the user.
+
 
 
 Table of Contents |
 -------------------|
-[Installation](#Installation)
 [Usage](#Usage)
 [Technologies](#Technologies)
 [Screenshots](#Screenshots)
@@ -17,7 +17,7 @@ Table of Contents |
 
 ## Usage
 
-The project is a basic portfolio created with HTML and CSS. The site includes a short bio, an picture along with a display of deployed works.
+A basic portfolio created with HTML and CSS. The site includes a short bio, an picture along with a display of deployed works. The website is mobile responsive. The works section allows for users to click on the image of the work and be taken to the deployed work.
 
 You can find the deployed link and the repository link below:
 
@@ -31,21 +31,21 @@ Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
 
 * HTML
 * CSS
+* Mobile Responsive
 
 <br />
 
-## Screenshot
-![Portfolio](./assets/images/cerafinn.github.io.png)
+## Screenshots
 
-<br />
+![IMG](./assets/images/portfolio-screenshot.png)
 
 ## Author
 
-Created with ❤️ by Andaleeb Farooq
+Andaleeb Farooq: [:octocat:](https://github.com/cerafinn)
 
 <br />
 
 ## Questions
 
 If you have any questions or issues, feel free to reach out at: andaleeb.farooq@gmail.com.
-You can also find more of my work on Github at [github link](https://github.com/cerafinn)
+You can also find more of my work on Github at [github link](https://github.com/cerafinn).

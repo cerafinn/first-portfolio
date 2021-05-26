@@ -68,9 +68,7 @@ nav a:hover {
 .hero {
   background-size: cover;
   display: flex;
-  padding: 5px;
-  margin-bottom: 25px;
-  background-color: #4682b4;}
+}
 
 /*profile style*/
 .profile {
@@ -199,7 +197,7 @@ aside img {
   background-color: var(--secondary);
 }
 
-.project:first-child, .project:nth-child(8) {
+.project:first-child, .project:nth-child(8n) {
   grid-column: span 2;
   grid-row: span 2;
 }
@@ -233,7 +231,7 @@ aside img {
   font-weight: bolder;
   border-bottom: 2px solid var(--tertiary);
   font-size: 28px;
-  padding: 10px;
+  padding: 2px;
 }
 
 .contact-content {
@@ -290,6 +288,7 @@ aside img {
 footer {
   color: var(--tertiary);
   text-align: center;
+  margin: 10px;
 }
 
 /*screen size <900*/
@@ -314,13 +313,18 @@ footer {
 
 /*screen size <768*/
 @media screen and (max-width: 768px) {
+  header nav ul li a {
+    font-size: 18px;
+  }
+
   main h2 {
     font-size: 5vw;
     text-align: center;
   }
 
-  .project, .project:first-child {
+  .project, .project:first-child, .project:nth-child(8n) {
     grid-column: 1 / -1;
+    grid-row: span 1;
   }
 
   .work-section > h2,
@@ -352,5 +356,3 @@ footer {
     font-size: 2.75vw;
   }
 }
-
-/*screen size <500*/
