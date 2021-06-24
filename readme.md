@@ -21,9 +21,9 @@ A basic portfolio created with HTML and CSS. The site includes a short bio, an p
 
 You can find the deployed link and the repository link below:
 
-Deployed Link: [Deployed Link](https://cerafinn.github.io/portfolio)
+Deployed Link: [Deployed Link](https://cerafinn.github.io/first-portfolio)
 
-Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
+Repo Link: [Repo Link](https://github.com/cerafinn/first-portfolio)
 
 <br />
 
